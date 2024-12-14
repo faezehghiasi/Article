@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  13 DEC 2024 16:45
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  14 DEC 2024 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,7 +931,7 @@ ng=persian-tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 11.
+(Font)              scaled to size 11.99997pt on input line 9.
 
 Package fontspec Info: Times New Roman scale = 1.
 
@@ -993,19 +993,11 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
 text;"
 
-LaTeX Info: Redefining \latinfont on input line 13.
+LaTeX Info: Redefining \latinfont on input line 10.
 
-(c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks53
-\inpenc@posthook=\toks54
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
+(c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
-\FN@temptoken=\toks55
+\FN@temptoken=\toks53
 \footnotemargin=\dimen271
 \@outputbox@depth=\dimen272
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
@@ -1024,76 +1016,123 @@ LaTeX Warning: Unused global option(s):
 (./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-8.
+7.
  (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-Package hyperref Info: Link coloring OFF on input line 28.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+Package hyperref Info: Link coloring OFF on input line 27.
 
 (./document.out) (./document.out)
 \@outlinefile=\write4
 \openout4 = `document.out'.
 
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 20.73593pt on input line 37.
+(Font)              scaled to size 20.73593pt on input line 36.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 37.
+(Font)              scaled to size 17.28pt on input line 36.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 37.
+(Font)              scaled to size 14.39996pt on input line 36.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 38.
+(Font)              scaled to size 17.27994pt on input line 37.
 
 
 LaTeX Font Warning: Font shape `TU/BZAR.TTF(0)/b/n' undefined
-(Font)              using `TU/BZAR.TTF(0)/m/n' instead on input line 38.
+(Font)              using `TU/BZAR.TTF(0)/m/n' instead on input line 37.
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
+(Font)              scaled to size 10.0pt on input line 38.
 Missing character: There is no ٔ (U+0654) in font [BZAR.TTF]/OT:language=dflt;s
 cript=arab;mapping=persian-tex-text;!
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 17.27994pt on input line 41.
+(Font)              scaled to size 17.27994pt on input line 40.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 42.
+(Font)              scaled to size 7.0pt on input line 41.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 42.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 42.
+(Font)              scaled to size 8.0pt on input line 41.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 41.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 41.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 41.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 41.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 41.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 47.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 47.
+
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 14.39996pt on input line 50.
+(Font)              scaled to size 14.39996pt on input line 49.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 50.
+(Font)              scaled to size 12.0pt on input line 49.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 50.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 50.
- [2] [3]
+(Font)              scaled to size 8.0pt on input line 49.
+
+LaTeX Warning: Unexpected alignment 8 on input line 49.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 50.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 52.
+
+[2]
+
+LaTeX Warning: Unexpected alignment 8 on input line 55.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 58.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 62.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 64.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 67.
+
+
+Overfull \vbox (0.12581pt too high) has occurred while \output is active []
+
+
+[3]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 86.
+(Font)              scaled to size 10.0pt on input line 85.
  [4] (./document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1107,11 +1146,11 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24614 strings out of 474773
- 510486 string characters out of 5761288
- 1933842 words of memory out of 5000000
- 46279 multiletter control sequences out of 15000+600000
- 562589 words of font info for 88 fonts, out of 8000000 for 9000
+ 24575 strings out of 474773
+ 509507 string characters out of 5761288
+ 1932842 words of memory out of 5000000
+ 46245 multiletter control sequences out of 15000+600000
+ 562573 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,8n,107p,1250b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

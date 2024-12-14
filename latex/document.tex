@@ -1,24 +1,29 @@
-
 \documentclass[11.5pt,onecolumn,a4paper]{article}
 \usepackage[hidelinks]{hyperref}
 \usepackage{epsfig,graphicx,subfigure,amsthm,amsmath}
-\usepackage{color,xcolor}   
+\usepackage{color,xcolor}
 \usepackage{setspace}
 \usepackage{tikz}
 \usepackage{xepersian}
 \settextfont[Scale=1.2]{BZAR.TTF}
 \setlatintextfont[Scale=1]{Times New Roman}
-\begin{spacing}{2} 
-\end{spacing}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{footmisc} 
-\renewcommand{\thefootnote}{\arabic{footnote}} 
-\renewcommand{\footnotelayout}{\raggedright} 
-\setlength{\footnotemargin}{0pt}
+\usepackage[bottom]{footmisc} % Ensure footnotes appear at the bottom of the page
 
+% Custom footnote layout
+\makeatletter
+\renewcommand\@makefntext[1]{%
+	\noindent\hfill#1\makebox[7pt][8]{\, \@thefnmark.}%
+}
+\makeatother
 
-
+% Adjust footnote rule and spacing
+\renewcommand{\footnoterule}{%
+	\kern 5pt % Adjust vertical position of the rule
+	\noindent\hfill\rule{0.3\textwidth}{1pt} % Right-aligned horizontal rule
+	\kern -1pt % Space below the rule
+}
+\setlength{\footnotesep}{1em} % Space between footnotes
+%\setlength{\skip\footins}{10em} % Space between text and footnotes
 \begin{document}
 	
 	
@@ -28,7 +33,7 @@
 		مهندسی کامپیوتر}
 	\date{}
 	\maketitle
-
+	
 	\section*{چکیده}
 	شبکه‌های حسگر بی‌سیم و اینترنت‌اشیا به دلیل کاربردهای گسترده در حوزه‌هایی همچون نظارت بر محیط، حمل‌ونقل هوشمند و مراقبت‌های بهداشتی، توجه بسیاری را به خود جلب کرده‌اند. یکی از چالش‌های اساسی این شبکه‌ها، محدودیت انرژی گره‌های حسگر و تأثیر آن بر طول عمر شبکه است. در این راستا، استفاده از تکنیک‌های مسیریابی براساس خوشه‌بندی به‌ همراه الگوریتم‌های فراابتکاری برای انتخاب سرخوشه‌ها و طراحی مسیرهای بهینه‌ی انتقال داده‌ها به عنوان راهکاری مناسب مطرح شده‌است. ما در این مقاله سه مدل پیشرفته برای بهینه‌سازی مصرف انرژی و بهبود عملکرد شبکه ارائه می‌دهیم. \lr{IMD-EACBR} که از الگوریتم ارشمیدس بهبودیافته برای انتخاب سرخوشه‌ها و از الگوریتم بهینه‌سازی مبتنی‌بر آموزش و یادگیری اصلاح‌شده‌ی دورگه برای مسیریابی چندپرشی استفاده می‌کند، مدل \lr{EECHS-ISSADE} که ترکیبی از الگوریتم‌های جست‌وجوی گنجشک و تکامل تفاضلی را برای خوشه‌بندی مسیریابی پیشنهاد می‌دهد و مدل ترکیبی \lr{ABC-ACO} که از الگوریتم زنبورعسل مصنوعی و کلونی مورچه‌ها برای کاهش تأخیر و توازن مصرف انرژی بهره می‌گیرد. براساس نتایج شبیه‌سازی‌ها مدل‌های پیشنهادی ما در مقایسه با روش‌های پیشین، منجر به افزایش طول عمر شبکه، کاهش مصرف انرژی و بهبود نرخ انتقال داده‌ها می‌شوند. این تحقیق گامی مؤثر در راستای بهینه‌سازی شبکه‌های حسگر بی‌سیم و اینترنت‌اشیاء است.
 	\newpage
@@ -39,9 +44,9 @@
 	\hspace*{1em}یکی از راهکارهای موثر برای مقابله با محدودیت‌های انرژی در شبکه‌های حسگر بی‌سیم، استفاده از تکنیک‌های مسیریابی مبتنی بر خوشه‌بندی است. در این روش، شبکه به چندین خوشه تقسیم می‌شود و برای هر خوشه یک سرخوشه تعیین می‌گردد. سرخوشه‌ها وظیفه‌ی جمع‌آوری داده‌ها از گره‌های عضو خوشه و انتقال آن‌ها به ایستگاه پایه را بر عهده دارند. انتخاب بهینه‌ی سرخوشه‌ها و مسیریابی داده‌ها به منظور کاهش مصرف انرژی، افزایش طول عمر شبکه و بهبود کارایی به‌ویژه در شبکه‌های بزرگ و پیچیده اهمیت زیادی دارند.
 	
 	\section*{الگوریتم‌های بهینه‌سازی برای انتخاب سرخوشه‌ها}
-	\hspace*{1em}برای انتخاب بهینه سرخوشه‌ها\lr{\footnote{Cluster Head }}، الگوریتم‌های فراابتکاری\lr{\footnote{Metaheuristic Algorithms}}متعددی ارائه شده‌اند. این الگوریتم‌ها با استفاده از روش‌های بهینه‌سازی پیشرفته و تحلیل پارامترهای مرتبط، نقش مهمی در کاهش مصرف انرژی و افزایش طول عمر شبکه ایفا می‌کنند. برخی از الگوریتم‌های موثر در این زمینه عبارتند از:
+	\hspace*{1em}برای انتخاب بهینه سرخوشه‌ها\lr{\footnote{Cluster Head}}، الگوریتم‌های فراابتکاری\lr{\footnote{Metaheuristic Algorithms}}متعددی ارائه شده‌اند. این الگوریتم‌ها با استفاده از روش‌های بهینه‌سازی پیشرفته و تحلیل پارامترهای مرتبط، نقش مهمی در کاهش مصرف انرژی و افزایش طول عمر شبکه ایفا می‌کنند. برخی از الگوریتم‌های موثر در این زمینه عبارتند از:
 	
-	\subsection*{\hspace*{1em}\tikz\draw[fill=black,circle] (0,0) circle (3pt); الگوریتم بهینه‌سازی ارشمیدس بهبودیافته\lr{\footnote{Improved Archimedes Optimization Algorithm }} }
+	\subsection*{\hspace*{1em}\tikz\draw[fill=black,circle] (0,0) circle (3pt); الگوریتم بهینه‌سازی ارشمیدس بهبودیافته\lr{\footnote{Improved Archimedes Optimization Algorithm}} }
 	\hspace*{2em}این الگوریتم با بهره‌گیری از یک تابع تناسب\lr{\footnote{Fitness Function}} که پارامترهایی نظیر فاصله، بهره‌وری انرژی و درجه‌ی گره را در نظر می‌گیرد، سرخوشه‌های بهینه را انتخاب می‌کند.
 	
 	\subsection*{\hspace*{1em}\tikz\draw[fill=black,circle] (0,0) circle (3pt); الگوریتم جست‌وجوی گنجشک\lr{\footnote{Sparrow Search Algorithm }}}
@@ -54,12 +59,12 @@
 	\hspace*{2em}این الگوریتم با الهام از رفتار زنبورها در یافتن منابع غذایی، گره‌هایی با بیشترین بهره‌وری انرژی و مناسب‌ترین موقعیت مکانی را به عنوان سرخوشه انتخاب می‌کند.
 	
 	\section*{الگوریتم‌های بهینه‌سازی مسیریابی }
-	\hspace*{1em}برای انتخاب بهینه سرخوشه‌ها، الگوریتم‌های فراابتکاری علاوه بر انتخاب سرخوشه‌ها، طراحی الگوریتم‌های بهینه برای مسیریابی داده‌ها\lr{\footnote{Data Routing}} از دیگر چالش‌های اساسی در شبکه‌های حسگر بی‌سیم است. این الگوریتم‌ها با هدف کاهش مصرف انرژی، بهبود تاخیر در انتقال داده‌ها و افزایش کارایی طراحی می‌شوند. برخی از الگوریتم‌های برجسته در این زمینه شامل موارد زیر است: 
+	\hspace*{1em}برای انتخاب بهینه سرخوشه‌ها، الگوریتم‌های فراابتکاری علاوه بر انتخاب سرخوشه‌ها، طراحی الگوریتم‌های بهینه برای مسیریابی داده‌ها\lr{\footnote{Data Routing  }} از دیگر چالش‌های اساسی در شبکه‌های حسگر بی‌سیم است. این الگوریتم‌ها با هدف کاهش مصرف انرژی، بهبود تاخیر در انتقال داده‌ها و افزایش کارایی طراحی می‌شوند. برخی از الگوریتم‌های برجسته در این زمینه شامل موارد زیر است: 
 	
-	\subsection*{\hspace*{1em}\tikz\draw[fill=black,circle] (0,0) circle (3pt); الگوریتم مسیریابی چندپرشی مبتنی بر بهینه‌سازی آموزش و یادگیری-اصلاح شده‌ی ترکیبی\lr{\footnote{Teaching-learning-Based Optimization for Multi-Hop Routing}}}
+	\subsection*{\hspace*{1em}\tikz\draw[fill=black,circle] (0,0) circle (3pt); الگوریتم مسیریابی چندپرشی مبتنی بر بهینه‌سازی آموزش و یادگیری-اصلاح شده‌ی ترکیبی\lr{\footnote{Teaching-learning-Based Optimization for Multi-Hop Routing  }}}
 	\hspace*{2em}این الگوریتم از روش‌های بهینه‌سازی مبتنی برآموزش و یادگیری برای یافتن مسیرهای بهینه بین گره‌ها استفاده می‌کند.
 	
-	\subsection*{\hspace*{1em}\tikz\draw[fill=black,circle] (0,0) circle (3pt); الگوریتم کلونی مورچه  بهبودیافته\lr{\footnote{Improved Ant Colony Optimization}}}
+	\subsection*{\hspace*{1em}\tikz\draw[fill=black,circle] (0,0) circle (3pt); الگوریتم کلونی مورچه  بهبودیافته \lr{\footnote{Improved Ant Colony Optimization  }}}
 	\hspace*{2em}این الگوریتم با ایجاد مسیرهای چندپرشی بهینه از سرخوشه‌ها به ایستگاه پایه، به کاهش مصرف انرژی کمک می‌کند.
 	
 	\section*{مدل‌های پیشنهادی}
@@ -88,8 +93,7 @@
 			\bibitem{ref5} \lr{Lakshmanna, Kuruva, et al. "Improved metaheuristic-driven energy-aware cluster-based routing scheme for IoT-assisted wireless sensor networks." \textit{Sustainability} 14.13 (2022): 7712.}
 			
 			\bibitem{ref6} \lr{Wang, Zongshan, et al. "An energy efficient routing protocol based on improved artificial bee colony algorithm for wireless sensor networks." \textit{IEEE Access} 8 (2020): 133577-133596.}
-\end{LTR}
+		\end{LTR}
 	\end{thebibliography}
-
-
+	
 \end{document}
