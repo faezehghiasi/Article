@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  14 DEC 2024 17:17
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  15 DEC 2024 02:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1062,8 +1062,6 @@ LaTeX Font Warning: Font shape `TU/BZAR.TTF(0)/b/n' undefined
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 38.
-Missing character: There is no ٔ (U+0654) in font [BZAR.TTF]/OT:language=dflt;s
-cript=arab;mapping=persian-tex-text;!
 [1
 
 ]
@@ -1089,16 +1087,23 @@ LaTeX Warning: Unexpected alignment 8 on input line 41.
 
 LaTeX Warning: Unexpected alignment 8 on input line 41.
 
+LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
+(Font)              scaled to size 14.39996pt on input line 43.
 
-LaTeX Warning: Unexpected alignment 8 on input line 47.
+LaTeX Warning: Unexpected alignment 8 on input line 44.
+
+
+LaTeX Warning: Unexpected alignment 8 on input line 44.
 
 
 LaTeX Warning: Unexpected alignment 8 on input line 47.
 
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 14.39996pt on input line 49.
+(Font)              scaled to size 11.99997pt on input line 49.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 10.0pt on input line 49.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 7.0pt on input line 49.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 8.0pt on input line 49.
 
@@ -1118,22 +1123,15 @@ LaTeX Warning: Unexpected alignment 8 on input line 55.
 LaTeX Warning: Unexpected alignment 8 on input line 58.
 
 
-LaTeX Warning: Unexpected alignment 8 on input line 62.
-
-
 LaTeX Warning: Unexpected alignment 8 on input line 64.
 
 
 LaTeX Warning: Unexpected alignment 8 on input line 67.
 
-
-Overfull \vbox (0.12581pt too high) has occurred while \output is active []
-
-
 [3]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 85.
- [4] (./document.aux)
+(Font)              scaled to size 10.0pt on input line 89.
+ [4] [5] (./document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1146,12 +1144,12 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24575 strings out of 474773
- 509507 string characters out of 5761288
+ 24578 strings out of 474773
+ 509620 string characters out of 5761288
  1932842 words of memory out of 5000000
- 46245 multiletter control sequences out of 15000+600000
- 562573 words of font info for 86 fonts, out of 8000000 for 9000
+ 46247 multiletter control sequences out of 15000+600000
+ 562581 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,8n,107p,1250b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,107p,1249b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document.pdf (4 pages).
+Output written on document.pdf (5 pages).
