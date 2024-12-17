@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  15 DEC 2024 14:07
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  17 DEC 2024 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,6 +861,28 @@ File: url-xepersian.def 2022/02/18 v0.1 adaptations for url package
 File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
 ass
 )
+(c:/texlive/2024/texmf-dist/tex/xelatex/bidi/extrafootnotefeatures-xetex-bidi.d
+ef
+File: extrafootnotefeatures-xetex-bidi.def 2023/08/02 v2.6 bidi extra footnote 
+features for XeTeX engine
+\bidi@columnwidth=\dimen271
+\footmarkwidth=\skip63
+\footinsdim=\skip64
+\bidi@absolutepage@count=\count373
+\bidi@absolutefootnote@count=\count374
+\footinsv@r=\insert251
+\footinsv@l=\insert250
+\@mpfootinsv@r=\insert249
+\@mpfootinsv@l=\insert248
+\m@m@k=\count375
+\m@m@h=\dimen272
+\m@mipn@skip=\skip65
+)
+(c:/texlive/2024/texmf-dist/tex/xelatex/xepersian/extrafootnotefeatures-xepersi
+an.def
+File: extrafootnotefeatures-xepersian.def 2012/01/01 v0.2 footnote macros for e
+xtrafootnotefeatures option of xepersian package
+)
 
 Package fontspec Info: Font family 'lmroman10-regular(0)' created for font
 (fontspec)             'lmroman10-regular' with options
@@ -994,12 +1016,11 @@ ext;"
 text;"
 
 LaTeX Info: Redefining \latinfont on input line 10.
-
-(c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
 \FN@temptoken=\toks53
-\footnotemargin=\dimen271
-\@outputbox@depth=\dimen272
+\footnotemargin=\dimen273
+\@outputbox@depth=\dimen274
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
 Package footmisc Info: Declaring symbol style chicago on input line 704.
 Package footmisc Info: Declaring symbol style wiley on input line 713.
@@ -1013,7 +1034,11 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 LaTeX Warning: Unused global option(s):
     [11.5pt].
 
-(./document.aux)
+(./document.aux
+
+LaTeX Warning: Label `ref6' multiply defined.
+
+)
 \openout1 = `document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -1042,8 +1067,8 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 Package hyperref Info: Link coloring OFF on input line 27.
-
-(./document.out) (./document.out)
+ (./document.out)
+(./document.out)
 \@outlinefile=\write4
 \openout4 = `document.out'.
 
@@ -1062,76 +1087,75 @@ LaTeX Font Warning: Font shape `TU/BZAR.TTF(0)/b/n' undefined
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 38.
+Missing character: There is no ٔ (U+0654) in font [BZAR.TTF]/OT:language=dflt;s
+cript=arab;mapping=persian-tex-text;!
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 17.27994pt on input line 40.
+(Font)              scaled to size 17.27994pt on input line 41.
+LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
+(Font)              scaled to size 8.39998pt on input line 42.
+LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 42.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 41.
+(Font)              scaled to size 8.0pt on input line 42.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 41.
-
-
-LaTeX Warning: Unexpected alignment 8 on input line 41.
-
-
-LaTeX Warning: Unexpected alignment 8 on input line 41.
-
-
-LaTeX Warning: Unexpected alignment 8 on input line 41.
-
-
-LaTeX Warning: Unexpected alignment 8 on input line 41.
-
-
-LaTeX Warning: Unexpected alignment 8 on input line 41.
-
+(Font)              scaled to size 6.0pt on input line 42.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 14.39996pt on input line 43.
-
-LaTeX Warning: Unexpected alignment 8 on input line 44.
-
-
-LaTeX Warning: Unexpected alignment 8 on input line 44.
-
-
-LaTeX Warning: Unexpected alignment 8 on input line 47.
-
+(Font)              scaled to size 14.39996pt on input line 44.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 11.99997pt on input line 49.
+(Font)              scaled to size 11.99997pt on input line 51.
+ [2
+
+] [3]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 49.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 7.0pt on input line 49.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 49.
-
-LaTeX Warning: Unexpected alignment 8 on input line 49.
+(Font)              scaled to size 10.0pt on input line 77.
 
 
-LaTeX Warning: Unexpected alignment 8 on input line 50.
+LaTeX Warning: Citation `ref7' on page 4 undefined on input line 94.
+
+[4]
+Overfull \hbox (1.58366pt too wide) in paragraph at lines 96--100
+[]\TU/BZAR.TTF(0)/b/n/10 متاهیوریستیک مانند []\TU/TimesNewRoman(0)/m/n/10 PSO[]
+ \TU/BZAR.TTF(0)/b/n/10 و []\TU/TimesNewRoman(0)/m/n/10 ABC[] \TU/BZAR.TTF(0)/b
+/n/10 نیز برای بهینه‌سازی انتخاب سرخوشه‌ها معرفی شده‌اند، اما مشکلاتی[]
+ []
 
 
-LaTeX Warning: Unexpected alignment 8 on input line 52.
-
-[2]
-
-LaTeX Warning: Unexpected alignment 8 on input line 55.
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
+[][]
+ []
 
 
-LaTeX Warning: Unexpected alignment 8 on input line 58.
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
+[][]
+ []
 
 
-LaTeX Warning: Unexpected alignment 8 on input line 64.
+Overfull \hbox (1.86417pt too wide) in paragraph at lines 101--105
+[]| \TU/BZAR.TTF(0)/b/n/10 مدل []\TU/TimesNewRoman(0)/m/n/10 EECHS-ISSADE[] \TU
+/BZAR.TTF(0)/b/n/10 بر اساس رفتارهای طبیعی گنجشک‌ها طراحی شده است. گنجشک‌ها[]
+ []
 
 
-LaTeX Warning: Unexpected alignment 8 on input line 67.
+Overfull \hbox (3.22926pt too wide) in paragraph at lines 101--105
+[]\TU/BZAR.TTF(0)/b/n/10 سرخوشه انتخاب می‌شود. انتخاب سرخوشه‌ها با استفاده از ا
+لگوریتم []\TU/TimesNewRoman(0)/m/n/10 IABC[] \TU/BZAR.TTF(0)/b/n/10 انجام می‌شو
+د که معیارهایی[]
+ []
 
-[3]
+[5]
+Overfull \hbox (3.59666pt too wide) in paragraph at lines 108--109
+[]| \TU/BZAR.TTF(0)/b/n/10 برای ارزیابی عملکرد مدل []\TU/TimesNewRoman(0)/m/n/1
+0 EECHS-ISSADE[]\TU/BZAR.TTF(0)/b/n/10 ، شبیه‌سازی‌هایی در []\TU/TimesNewRoman(
+0)/m/n/10 MATLAB[] \TU/BZAR.TTF(0)/b/n/10 انجام شد. شبکه‌ای[]
+ []
+
+[6]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 89.
- [4] [5] (./document.aux)
+(Font)              scaled to size 10.0pt on input line 114.
+ [7] (./document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1140,16 +1164,22 @@ L3 programming layer <2024-02-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 663DD89354A8712757F8A977CA7C3BF5;449.
  ) 
 Here is how much of TeX's memory you used:
- 24578 strings out of 474773
- 509620 string characters out of 5761288
- 1932842 words of memory out of 5000000
- 46247 multiletter control sequences out of 15000+600000
- 562581 words of font info for 87 fonts, out of 8000000 for 9000
+ 24962 strings out of 474773
+ 518352 string characters out of 5761288
+ 1933842 words of memory out of 5000000
+ 46623 multiletter control sequences out of 15000+600000
+ 562589 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,8n,107p,1249b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,107p,1251b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document.pdf (5 pages).
+Output written on document.pdf (7 pages).
