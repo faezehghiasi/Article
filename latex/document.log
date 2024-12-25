@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  22 DEC 2024 15:03
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  25 DEC 2024 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count184
 \c@section=\count185
@@ -312,15 +312,17 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 149.
-
-(c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
@@ -328,7 +330,6 @@ Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
-LaTeX Info: Redefining \color on input line 758.
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
@@ -1001,7 +1002,7 @@ ng=persian-tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 13.
+(Font)              scaled to size 14.39996pt on input line 13.
 
 Package fontspec Info: Times New Roman scale = 1.
 
@@ -1078,38 +1079,34 @@ Package footmisc Info: Declaring symbol style lamport* on input line 744.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 .
 )
-
-LaTeX Warning: Unused global option(s):
-    [11.5pt].
-
 (./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-0.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+8.
  (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1130,12 +1127,12 @@ LaTeX Font Info:    ... okay on input line 30.
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1145,87 +1142,84 @@ LaTeX Font Info:    ... okay on input line 30.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 28.
 (./document.out) (./document.out)
 \@outlinefile=\write4
 \openout4 = `document.out'.
 
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 20.73593pt on input line 38.
+(Font)              scaled to size 24.88794pt on input line 36.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 38.
+(Font)              scaled to size 20.74pt on input line 36.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 38.
+(Font)              scaled to size 17.27994pt on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 40.
+(Font)              scaled to size 20.73593pt on input line 39.
 
 
 LaTeX Font Warning: Font shape `TU/BZAR.TTF(0)/b/n' undefined
-(Font)              using `TU/BZAR.TTF(0)/m/n' instead on input line 40.
+(Font)              using `TU/BZAR.TTF(0)/m/n' instead on input line 39.
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 41.
+(Font)              scaled to size 12.0pt on input line 40.
+
+Overfull \hbox (4.65993pt too wide) in paragraph at lines 40--41
+[]\TU/BZAR.TTF(0)/m/n/12 شبکه‌های حسگر بی‌سیم و اینترنت اشیا به دلیل کاربردهای 
+گسترده در زمینه‌هایی مانند نظارت محیطی، حمل‌ونقل[]
+ []
+
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 17.27994pt on input line 45.
+(Font)              scaled to size 20.73593pt on input line 44.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 8.39998pt on input line 46.
+(Font)              scaled to size 9.59998pt on input line 45.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 46.
+(Font)              scaled to size 11.99997pt on input line 45.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 10.0pt on input line 45.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 46.
+(Font)              scaled to size 7.0pt on input line 45.
 File: cluster-persian.png Graphic file (type bmp)
 <cluster-persian.png>
+ [2]
+LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
+(Font)              scaled to size 14.39996pt on input line 59.
 
-Overfull \hbox (0.75504pt too wide) in paragraph at lines 57--58
-[]\TU/BZAR.TTF(0)/m/n/10 پیشرفته و تحلیل پارامترهای مرتبط، نقش مهمی در کاهش مصر
-ف انرژی و افزایش طول عمر شبکه ایفا می‌کنند. برخی از الگوریتم‌های[]
+Overfull \hbox (6.03954pt too wide) in paragraph at lines 59--60
+[][]\TU/BZAR.TTF(0)/b/n/12 الگوریتم بهینه‌سازی ارشمیدس بهبودیافته[][][][][]: ال
+گوریتم ارشمیدس بهبودیافته با بهره‌گیری از یک تابع تناسب[][][][][][]
  []
 
-LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 11.99997pt on input line 60.
-
-Overfull \vbox (1.22565pt too high) has occurred while \output is active []
-
-
-[2
-
-]
+[3]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 77.
- [3]
+(Font)              scaled to size 12.0pt on input line 80.
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 14.39996pt on input line 86.
-
-Overfull \hbox (8.68864pt too wide) in paragraph at lines 89--93
-[]| \TU/BZAR.TTF(0)/b/n/10 روش‌های مختلفی برای بهبود عملکرد شبکه‌های حسگر بی‌سی
-م پیشنهاد شده‌اند. پروتکل []\TU/TimesNewRoman(0)/m/n/10 LEACH[]\TU/BZAR.TTF(0)/
-b/n/10 ، یکی از نخستین الگوریتم‌های[]
+(Font)              scaled to size 17.27994pt on input line 96.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 96.
+ [4] [5] [6] [7]
+Overfull \hbox (24.62164pt too wide) in paragraph at lines 192--193
+[][]\TU/BZAR.TTF(0)/b/n/12 پیاده‌سازی در محیط‌های واقعی: ارزیابی مدل‌ها در محیط
+‌های فیزیکی و مقایسه عملکرد آن‌ها با شبیه‌سازی‌های[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-[][]
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-[][]
- []
-
-[5]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 107.
- [6] (./document.aux)
+(Font)              scaled to size 12.0pt on input line 201.
+[8] [9] (./document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1235,15 +1229,15 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 7EE3DDABBE531E6F849D3170F0232528;532.
+(rerunfilecheck)             Checksum: EB3C78F6DCC7FE8E578AEAE08320993D;1289.
  ) 
 Here is how much of TeX's memory you used:
- 25863 strings out of 474773
- 533339 string characters out of 5761288
- 1939842 words of memory out of 5000000
- 47494 multiletter control sequences out of 15000+600000
- 563279 words of font info for 90 fonts, out of 8000000 for 9000
+ 26367 strings out of 474773
+ 538531 string characters out of 5761288
+ 1930842 words of memory out of 5000000
+ 47984 multiletter control sequences out of 15000+600000
+ 567312 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,8n,107p,1327b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,1327b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document.pdf (6 pages).
+Output written on document.pdf (9 pages).
