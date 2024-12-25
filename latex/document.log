@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  25 DEC 2024 12:37
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  25 DEC 2024 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,19 +1207,35 @@ Overfull \hbox (6.03954pt too wide) in paragraph at lines 59--60
 [3]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 80.
+ [4]
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
-(Font)              scaled to size 17.27994pt on input line 96.
+(Font)              scaled to size 17.27994pt on input line 97.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 96.
- [4] [5] [6] [7]
-Overfull \hbox (24.62164pt too wide) in paragraph at lines 192--193
+(Font)              scaled to size 14.4pt on input line 97.
+ [5]
+Overfull \hbox (5.07756pt too wide) in paragraph at lines 132--133
+[]\TU/BZAR.TTF(0)/b/n/12 مدل []\TU/TimesNewRoman(0)/m/n/12 EECHS-ISSADE[] \TU/B
+ZAR.TTF(0)/b/n/12 ترکیبی از الگوریتم‌های جستجوی گنجشک و تکامل تفاضلی برای انتخا
+ب سرخوشه‌ها[]
+ []
+
+[6] [7]
+File: routing-abc-aco.png Graphic file (type bmp)
+<routing-abc-aco.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] [9]
+Overfull \hbox (24.62164pt too wide) in paragraph at lines 239--240
 [][]\TU/BZAR.TTF(0)/b/n/12 پیاده‌سازی در محیط‌های واقعی: ارزیابی مدل‌ها در محیط
 ‌های فیزیکی و مقایسه عملکرد آن‌ها با شبیه‌سازی‌های[]
  []
 
+[10]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 201.
-[8] [9] (./document.aux)
+(Font)              scaled to size 12.0pt on input line 248.
+ [11] (./document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1229,15 +1245,15 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: EB3C78F6DCC7FE8E578AEAE08320993D;1289.
+(rerunfilecheck)             Checksum: 8F77E99671B1A37645FE150DBFB8224B;2617.
  ) 
 Here is how much of TeX's memory you used:
- 26367 strings out of 474773
- 538531 string characters out of 5761288
- 1930842 words of memory out of 5000000
- 47984 multiletter control sequences out of 15000+600000
+ 26382 strings out of 474773
+ 538885 string characters out of 5761288
+ 1931842 words of memory out of 5000000
+ 47998 multiletter control sequences out of 15000+600000
  567312 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,12n,107p,1327b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,1327b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document.pdf (9 pages).
+Output written on document.pdf (11 pages).
