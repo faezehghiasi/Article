@@ -1,9 +1,10 @@
 \documentclass[12pt, onecolumn, a4paper]{article}
 \usepackage[a4paper, margin=1in]{geometry}
-\usepackage{graphicx}       
 \usepackage[hidelinks]{hyperref} 
+\usepackage{graphicx}       
 \usepackage{epsfig, subfigure, amsthm, amsmath, amssymb} 
-\usepackage{xcolor}  
+\usepackage{xcolor}
+\usepackage[numbers]{natbib} % اضافه کردن بسته مدیریت مراجع  
 \usepackage{setspace}       
 \usepackage{tikz}           
 \usepackage{enumitem}       
@@ -13,17 +14,20 @@
 \setlatintextfont[Scale=1]{Times New Roman} 
 \usepackage[bottom]{footmisc} 
 
+
 \setlength{\parindent}{2em} % فرورفتگی ابتدای پاراگراف
 \setlength{\parskip}{0.5em} % فاصله بین پاراگراف‌ها
 \linespread{1.5} % فاصله بین خطوط
 \setlist[itemize]{label=$\bullet$, leftmargin=1.5em, itemsep=0.5em}
 
+% تعریف اعداد فارسی برای متن رفرنس‌ها
 \renewenvironment{abstract}{%
 	\noindent\textbf{\large چکیده}\[0.5em]%
 	\noindent\ignorespaces%
 }{%
 	\par\noindent%
 }
+
 
 \begin{document}
 	
@@ -183,32 +187,52 @@
 
 \section{نتایج و تحلیل}
 
-نتایج شبیه‌سازی با استفاده از نرم‌افزار \lr{MATLAB} انجام شده و عملکرد سه مدل پیشنهادی با روش‌های موجود مقایسه شده است. معیارهای ارزیابی شامل موارد زیر هستند:
-\begin{itemize}
-	\item \textbf{طول عمر شبکه:} تعداد دورهای فعال شبکه قبل از اتمام انرژی گره‌ها.
-	\item \textbf{مصرف انرژی\LTRfootnote{Energy Consumption}:} میزان انرژی مصرفی در هر دور.
-	\item \textbf{نرخ انتقال داده\LTRfootnote{Data Transmission Rate}:} تعداد بسته‌های ارسال‌شده به ایستگاه پایه.
-	\item \textbf{نسبت تحویل بسته:} درصد بسته‌های موفق ارسال‌شده.
-\end{itemize}
+نتایج شبیه‌سازی با استفاده از نرم‌افزار \lr{MATLAB} انجام شده و عملکرد سه مدل پیشنهادی با روش‌های موجود مقایسه شده است. معیارهای ارزیابی شامل طول عمر شبکه، مصرف انرژی، نرخ انتقال داده، و نسبت تحویل بسته بوده‌اند. 
+
+جدول \ref{table:results} مقایسه عملکرد مدل‌های پیشنهادی را ارائه می‌دهد. همان‌طور که مشاهده می‌شود، هر یک از مدل‌ها در برخی جنبه‌ها نسبت به دیگران برتری دارند. 
 
 \begin{table}[h!]
 	\centering
 	\caption{مقایسه عملکرد مدل‌های پیشنهادی}
 	\label{table:results}
-	\resizebox{1\textwidth}{!}{ % تنظیم عرض جدول به 90 درصد عرض صفحه
+	\resizebox{1\textwidth}{!}{ % تنظیم عرض جدول به 100 درصد عرض صفحه
 		\begin{tabular}{|c|c|c|c|c|}
 			\hline
-			\textbf{مدل} & \textbf{طول عمر شبکه (دور)} & \textbf{مصرف انرژی (ژول)} & \textbf{نرخ انتقال داده (بسته/ثانیه)} & \textbf{نسبت تحویل بسته (\%)} \\
-			\hline
-			\lr{IMD-EACBR} & 3500 & 0/047 & 0/975 & 98/83 \\
-			\lr{EECHS-ISSADE} & 3250 & 0/056 & 0/945 & 97/62 \\
-			\lr{ABC-ACO} & 3100 & 0/063 & 0/910 & 96/45 \\
-			\hline
+			\textbf{مدل} & \textbf{طول عمر شبکه (دور)} & \textbf{مصرف انرژی (ژول)} & \textbf{نرخ انتقال داده (بسته/ثانیه)} & \textbf{نسبت تحویل بسته (\%)} \\ \hline
+			\lr{IMD-EACBR} & 3500 & 0/047 & 0/975 & 98/83 \\\hline
+			\lr{EECHS-ISSADE} & 3250 & 0/056 & 0/945 & 97/62 \\\hline
+			\lr{ABC-ACO} & 3100 & 0/063 & 0/910 & 96/45 \\\hline
 		\end{tabular}
 	}
 \end{table}
 
+\subsection*{تحلیل طول عمر شبکه}
+مدل \lr{IMD-EACBR} بیشترین طول عمر شبکه را ارائه داده است. این امر به دلیل توزیع متوازن بار میان سرخوشه‌ها و استفاده بهینه از انرژی گره‌ها است \cite{ref4, ref5}. همچنین، استفاده از الگوریتم ارشمیدس بهبودیافته برای انتخاب سرخوشه‌ها باعث شده که این مدل بهره‌وری بالایی در مصرف انرژی داشته باشد. 
 
+مدل \lr{EECHS-ISSADE} با طول عمر 3250 دور در رتبه دوم قرار دارد. ترکیب الگوریتم‌های جستجوی گنجشک و تکامل تفاضلی، توانسته است کارایی خوبی در مدیریت انرژی شبکه داشته باشد \cite{ref6}. با این حال، پیچیدگی‌های محاسباتی بیشتر این مدل نسبت به \lr{IMD-EACBR} ممکن است منجر به کاهش طول عمر آن شده باشد.
+
+مدل \lr{ABC-ACO} با طول عمر 3100 دور در مقایسه با دو مدل دیگر عملکرد کمتری داشته است. دلیل این امر می‌تواند استفاده از الگوریتم کلونی مورچه باشد که هزینه محاسباتی بیشتری دارد و انرژی بیشتری مصرف می‌کند \cite{ref7}.
+
+\subsection*{تحلیل مصرف انرژی}
+از نظر مصرف انرژی، مدل \lr{IMD-EACBR} کمترین مصرف انرژی (0/047 ژول) را داشته است که نشان‌دهنده بهره‌وری بالا در انتقال داده‌ها و مدیریت خوشه‌بندی است. این موفقیت ناشی از بهینه‌سازی‌های چندهدفه در الگوریتم‌های استفاده‌شده در این مدل است.
+
+مدل \lr{EECHS-ISSADE} نیز مصرف انرژی نسبتاً کمی (0/056 ژول) داشته است. استفاده از الگوریتم‌های جستجوی گنجشک و تکامل تفاضلی، نقش مهمی در کاهش مصرف انرژی ایفا کرده است \cite{ref5}.
+
+مدل \lr{ABC-ACO} بیشترین مصرف انرژی (0/063 ژول) را داشته است. این موضوع به دلیل نیاز به به‌روزرسانی مداوم فرمون‌ها در الگوریتم کلونی مورچه است که مصرف انرژی بیشتری دارد \cite{ref6}.
+
+\subsection*{تحلیل نرخ انتقال داده}
+از نظر نرخ انتقال داده، مدل \lr{IMD-EACBR} با نرخ 0/975 بسته در ثانیه بهترین عملکرد را داشته است. این نرخ بالا ناشی از کاهش تأخیر در ارسال داده‌ها و انتخاب مسیرهای بهینه برای انتقال است.
+
+مدل \lr{EECHS-ISSADE} با نرخ انتقال داده 0/945 بسته در ثانیه عملکرد قابل‌قبولی دارد. این عملکرد نشان می‌دهد که ترکیب الگوریتم‌های استفاده‌شده در این مدل توانسته است مسیرهای کارآمدی برای انتقال داده‌ها پیدا کند \cite{ref5}.
+
+مدل \lr{ABC-ACO} با نرخ انتقال داده 0/910 بسته در ثانیه پایین‌ترین عملکرد را در میان سه مدل دارد. این امر به دلیل پیچیدگی مسیریابی در این مدل و زمان بیشتری است که برای پیدا کردن مسیرهای بهینه صرف می‌شود.
+
+\subsection*{تحلیل نسبت تحویل بسته}
+از نظر نسبت تحویل بسته، مدل \lr{IMD-EACBR} با نرخ 98/83\% بهترین عملکرد را دارد. این موفقیت ناشی از انتخاب دقیق سرخوشه‌ها و مسیرهای چندپرشی بهینه است.
+
+مدل \lr{EECHS-ISSADE} با نرخ 97/62\% در جایگاه دوم قرار دارد. استفاده از الگوریتم‌های چندهدفه در این مدل به کاهش از دست رفتن بسته‌ها کمک کرده است \cite{ref6}.
+
+مدل \lr{ABC-ACO} با نرخ 96/45\% کمترین عملکرد را داشته است. دلیل این امر می‌تواند به پیچیدگی‌های مسیریابی و کاهش بهره‌وری انرژی در این مدل مربوط باشد \cite{ref7}.
 
 \section{بحث و تحلیل}
 
@@ -242,9 +266,13 @@
 
 نتایج این پژوهش نشان‌دهنده توانایی بالای مدل‌های پیشنهادی در افزایش بهره‌وری و کاهش هزینه‌های عملیاتی شبکه‌های حسگر بی‌سیم است. توسعه بیشتر این مدل‌ها می‌تواند گامی مؤثر در راستای ایجاد شبکه‌های پایدار و کارآمد در کاربردهای اینترنت اشیا باشد.
 \newpage
-\begin{thebibliography}{9}
+% References
+\renewcommand{\bibname}{مراجع} % تغییر عنوان بخش مراجع به "مراجع"
+
+\begin{thebibliography}{99}
 	
-	\begin{LTR}	
+	\begin{latin}
+		
 		\bibitem{ref1} \lr{Sharma, Deepak, and Amol P. Bhondekar. "Traffic and energy aware routing for heterogeneous wireless sensor networks." \textit{IEEE Communications Letters} 22.8 (2018): 1608-1611.}
 		
 		\bibitem{ref2} \lr{Farsi, Mohammed, et al. "A congestion-aware clustering and routing (CCR) protocol for mitigating congestion in WSN." \textit{IEEE Access} 7 (2019): 105402-105419.}
@@ -264,11 +292,10 @@
 		\bibitem{ref9} \lr{Chen, Shuo, et al. "Energy-efficient cluster head selection in wireless sensor networks with metaheuristic optimization." \textit{IEEE Sensors Journal} 20.23 (2020): 14012-14022.}
 		
 		\bibitem{ref10} \lr{Lyu, Xuan, et al. "Dynamic energy-aware clustering and routing algorithm for wireless sensor networks." \textit{Journal of Network and Computer Applications} 193 (2022): 103162.}
-	\end{LTR}
+		
+	\end{latin}
 	
 \end{thebibliography}
-
-
 
 
 \end{document}
