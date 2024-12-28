@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.18)  28 DEC 2024 15:44
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.18)  28 DEC 2024 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,15 +1134,15 @@ LaTeX Font Info:    ... okay on input line 32.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(80.94205pt, 435.62378pt, 80.94205pt)
-* v-part:(T,H,B)=(80.94205pt, 683.16275pt, 80.94205pt)
+* h-part:(L,W,R)=(83.11005pt, 431.28778pt, 83.11005pt)
+* v-part:(T,H,B)=(83.11005pt, 678.82675pt, 83.11005pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=435.62378pt
-* \textheight=683.16275pt
-* \oddsidemargin=8.67206pt
-* \evensidemargin=8.67206pt
-* \topmargin=-28.32794pt
+* \textwidth=431.28778pt
+* \textheight=678.82675pt
+* \oddsidemargin=10.84006pt
+* \evensidemargin=10.84006pt
+* \topmargin=-26.15994pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1215,7 +1215,13 @@ File: cluster-persian.png Graphic file (type bmp)
 LaTeX Font Info:    Font shape `TU/BZAR.TTF(0)/b/n' will be
 (Font)              scaled to size 14.39996pt on input line 63.
 
-Overfull \hbox (5.6361pt too wide) in paragraph at lines 72--73
+Overfull \hbox (1.25104pt too wide) in paragraph at lines 65--66
+[][]\TU/BZAR.TTF(0)/b/n/12 الگوریتم تکامل تفاضلی[][][][][]: الگوریتم تکامل تفاض
+لی با بهره‌گیری از روش‌های بهینه‌سازی با پیچیدگی[]
+ []
+
+
+Overfull \hbox (9.97209pt too wide) in paragraph at lines 72--73
 [][]\TU/BZAR.TTF(0)/b/n/12 الگوریتم مسیریابی چندپرشی مبتنی بر بهینه‌سازی آموزش 
 و یادگیری اصلاح‌شده‌ی ترکیبی[][][][][]: الگوریتم[]
  []
@@ -1225,6 +1231,12 @@ Overfull \hbox (5.6361pt too wide) in paragraph at lines 72--73
 [3]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 84.
+
+Overfull \hbox (4.02522pt too wide) in paragraph at lines 94--95
+[][]\TU/BZAR.TTF(0)/b/n/12 این مرور نشان می‌دهد که پژوهش‌های انجام‌شده پیشرفت‌ه
+ای قابل‌توجهی در بهینه‌سازی خوشه‌بندی[]
+ []
+
 
 
 [4]
@@ -1244,23 +1256,9 @@ File: routing-abc-aco.png Graphic file (type bmp)
 
 
 [8]
-Overfull \hbox (19.92484pt too wide) in paragraph at lines 219--220
-[][]\TU/BZAR.TTF(0)/b/n/12 مدل []\TU/TimesNewRoman(0)/m/n/12 EECHS-ISSADE[] \TU
-/BZAR.TTF(0)/b/n/12 نیز مصرف انرژی نسبتاً کمی (۰/۰۵۶ ژول) داشته است. استفاده از
- الگوریتم‌های[]
- []
-
-
 
 [9]
-Overfull \hbox (0.94754pt too wide) in paragraph at lines 233--234
-[][]\TU/BZAR.TTF(0)/b/n/12 مدل []\TU/TimesNewRoman(0)/m/n/12 EECHS-ISSADE[] \TU
-/BZAR.TTF(0)/b/n/12 با نرخ ۹۷/۶۲% در جایگاه دوم قرار دارد. استفاده از الگوریتم‌
-های چندهدفه[]
- []
-
-
-Overfull \hbox (13.30603pt too wide) in paragraph at lines 235--236
+Overfull \hbox (17.64203pt too wide) in paragraph at lines 235--236
 [][]\TU/BZAR.TTF(0)/b/n/12 مدل []\TU/TimesNewRoman(0)/m/n/12 ABC-ACO[] \TU/BZAR
 .TTF(0)/b/n/12 با نرخ ۹۶/۴۵% کمترین عملکرد را داشته است. دلیل این امر می‌تواند 
 به پیچیدگی‌های[]
@@ -1269,12 +1267,6 @@ Overfull \hbox (13.30603pt too wide) in paragraph at lines 235--236
 
 
 [10]
-Overfull \hbox (8.38222pt too wide) in paragraph at lines 267--268
-[][]\TU/BZAR.TTF(0)/b/n/12 نتایج این پژوهش نشان‌دهنده توانایی بالای مدل‌های پیش
-نهادی در افزایش بهره‌وری و کاهش هزینه‌های[]
- []
-
-
 
 [11]
 
@@ -1283,7 +1275,9 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 276.
 
 
-[13] (./document.aux)
+[13]
+
+[14] (./document.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1296,12 +1290,12 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 8F77E99671B1A37645FE150DBFB8224B;2617.
  ) 
 Here is how much of TeX's memory you used:
- 26711 strings out of 474235
- 542909 string characters out of 5745817
+ 26712 strings out of 474235
+ 542942 string characters out of 5745817
  1064215 words of memory out of 5000000
- 48855 multiletter control sequences out of 15000+600000
+ 48856 multiletter control sequences out of 15000+600000
  567312 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,12n,107p,1327b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,1327b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document.pdf (13 pages).
+Output written on document.pdf (14 pages).
