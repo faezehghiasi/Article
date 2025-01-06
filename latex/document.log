@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.13)  28 DEC 2024 16:39
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.18)  3 JAN 2025 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,6 +1223,12 @@ Overfull \hbox (9.97209pt too wide) in paragraph at lines 72--73
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 84.
 
+Overfull \hbox (0.66904pt too wide) in paragraph at lines 88--89
+[][]\TU/BZAR.TTF(0)/b/n/12 پروتکل‌های ترکیبی: در پژوهش‌هایی مانند [[]، []]، ترک
+یب الگوریتم‌های مختلف از جمله جستجوی[]
+ []
+
+
 Overfull \hbox (4.02522pt too wide) in paragraph at lines 94--95
 [][]\TU/BZAR.TTF(0)/b/n/12 این مرور نشان می‌دهد که پژوهش‌های انجام‌شده پیشرفت‌ه
 ای قابل‌توجهی در بهینه‌سازی خوشه‌بندی[]
@@ -1246,7 +1252,16 @@ Overfull \hbox (17.64203pt too wide) in paragraph at lines 235--236
 [10] [11]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 276.
- [12] [13] (./document.aux)
+
+
+[12]
+
+[13] (./document.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1259,12 +1274,12 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 8F77E99671B1A37645FE150DBFB8224B;2617.
  ) 
 Here is how much of TeX's memory you used:
- 26753 strings out of 474773
- 543974 string characters out of 5761288
- 1930842 words of memory out of 5000000
- 48359 multiletter control sequences out of 15000+600000
+ 26720 strings out of 474235
+ 543026 string characters out of 5745817
+ 1064215 words of memory out of 5000000
+ 48864 multiletter control sequences out of 15000+600000
  567312 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,12n,107p,1327b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,1327b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on document.pdf (13 pages).
